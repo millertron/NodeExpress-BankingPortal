@@ -1,5 +1,5 @@
 const path = require('path');
-const { accounts, users, writeJSON } = require('./data');
+const { accounts, users } = require('./data');
 const accountRoutes = require("./routes/accounts");
 const servicesRoutes = require("./routes/services");
 
